@@ -3,18 +3,19 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+/* nav-bar */
 .nav-options{
     display: flex;
     gap: 35px;
     margin: 5px 800px;
 
-
+/* nav-bar */
+/* banner */
 }
 .banner-content{
     display: flex;
   justify-content: space-between;
- 
-
+align-items: center;
 
 }
 .banner-text{
@@ -74,7 +75,7 @@ height: 24px;
     border-radius: 5px;
     border: none;
 }
-
+/* banner */
 
 /* LASTET WORKING PROJECT */
 .working-contents h3{
@@ -132,6 +133,8 @@ text-align: left;
     text-align: center;
     margin-top: 35px;
 }
+
+/* responsive */
 @media screen and (max-width:400px){
     .nav-options{
     margin:0 100px;
